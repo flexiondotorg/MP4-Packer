@@ -115,11 +115,11 @@ do
 				# >= 12gb : Split into 3.5GB chunks ensuring PS3 and FAT32 compatibility
 				SPLIT_SIZE="-split-size 3670016"		
 			elif [ ${MP4_SIZE} -ge 9663676416 ]; then   
-				# >= 9gb  : Divide .mkv filesize by 3 and split by that amount
-				SPLIT_SIZE="-split-size "$(((${MKV_SIZE} / 3) / 1024))
+				# >= 9gb  : Divide filesize by 3 and split by that amount
+				SPLIT_SIZE="-split-size "$(((${MP4_SIZE} / 3) / 1024))
 			elif [ ${MP4_SIZE} -ge 4294967296 ]; then   
-				# >= 4gb  : Divide .mkv filesize by 2 and split by that amount
-				SPLIT_SIZE="-split-size "$(((${MKV_SIZE} / 2) / 1024))
+				# >= 4gb  : Divide filesize by 2 and split by that amount
+				SPLIT_SIZE="-split-size "$(((${MP4_SIZE} / 2) / 1024))
 			else										
 				# File is small enough to not require splitting
 				SPLIT_SIZE=""
