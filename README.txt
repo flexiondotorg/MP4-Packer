@@ -36,11 +36,11 @@ audio and video from an existing MPEG-4 or ISO Media Apple QuickTime container
 and repacks them in a new MPEG-4 container. The new MPEG-4 files play back just
 fine on my PS3 :-)
 
-Optioanally splits the resulting MPEG-4, if it will be greater than 4GB, to 
-maintain FAT32  compatibility. 
+Optionally splits the resulting MPEG-4, if it will be greater than 4GB, to 
+maintain FAT32 compatibility. 
 
-This scripts Work on Ubuntu Linux, should work on any other Linux/Unix flavour 
-and possibly Mac OS X providing you have the required tools installed. 
+This script works on Ubuntu Linux, should work on any other Linux/Unix flavour 
+and possibly Mac OS X providing you have the required tools installed.
 
 Usage
 
