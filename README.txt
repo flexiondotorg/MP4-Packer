@@ -62,11 +62,9 @@ Known Limitations
  
 Source Code
 
-You can checkout the current branch from my Bazaar repository. This is a 
-read-only repository, get in touch if you want to contribute and require write 
-access.
+You can grab the source from Launchpad. Contributions are welcome :-)
 
- bzr co http://code.flexion.org/Bazaar/MP4-Packer/
+ - https://code.launchpad.net/~flexiondotorg
 
 References
 
