@@ -1,3 +1,7 @@
+############################################################
+# This project is inactive and archived here for reference #
+############################################################
+
 License
 
 Extracts audio and video from MPEG-4 container and repacks it.
@@ -59,12 +63,6 @@ Requirements
 Known Limitations
 
  - Subtitles in the original MPEG-4 or Quicktime container are not preserved.
- 
-Source Code
-
-You can grab the source from Launchpad. Contributions are welcome :-)
-
- - https://code.launchpad.net/~flexiondotorg
 
 References
 
